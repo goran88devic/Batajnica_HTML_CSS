@@ -1,0 +1,147 @@
+body{
+    margin:0px;
+	padding:0px;
+	background-color:#CCCCCC;
+}
+#wraper{
+	background-color:#FFFFFF;
+	width:960px;
+	/*height:800px;*/
+	margin:0 auto;
+	padding:0px;
+}
+#header{
+	background-color:rgb(69,114,243);
+	height:100px;
+	
+	
+}
+#header h1{
+	color:white;
+	font-size:50px;
+	text-align:left;
+	padding:15px;
+	margin:0;
+	font-family:Arial,Helvetica,sans serif;
+	
+	}
+
+#nav{
+	height:40px;
+	background-color:rgb(198,181,114);
+	margin: 0px 0 5px 0;
+}
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#nav ul li {
+	float:left;
+	position:relative;
+}
+#nav ul li a {
+	height:20px;
+	padding:10px;
+	display:block;
+	font-family:Arial,Helvetica,sans serif;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+#nav ul li a:hover {
+	background:#878787;
+	color:rgb(198,181,114);
+}
+#nav ul li a:active {
+	background:#C1C1C1;
+	color:rgb(198,181,114);
+}
+
+
+#main{
+	
+	float:left;
+	width:680px;
+	background-color:#FFFFFF;
+	/*height:500px;*/
+	margin-bottom:5px;
+	padding:10px;
+	font-family:Arial,Helvetica,sans serif;
+	font-size:16px;
+	
+}
+
+#1{
+	margin:5px 0;
+	padding:0;
+}
+#2{
+	margin:5px 0 0 0;
+	padding:5px 0 0 0;
+}
+
+#sidebar{
+	float:right;
+	width:250px;
+	/*height:500px;*/
+	background-color:rgb(187,215,255);
+	margin-bottom:5px;
+	padding:0px 0 5px 0;
+	font-family:Arial,Helvetica,sans serif;
+	color:rgb(0,0,128);
+}
+
+#sidebar h3 {
+	background-color:rgb(187,215,255);
+	margin:0px;
+	padding:5px;
+	text-align:center;
+	
+	
+}
+table,td,tr,th{
+	border:1px hidden black;
+	border-collapse:collapse; 
+	
+	
+}
+table{
+	border:1px solid black;
+	border-collapse:collapse;
+    width:250px;
+    padding:5px 0; 
+    margin:0 0 5px 0; 	
+	
+	
+}
+td{
+	width:125px;
+	padding:0 0 0 5px;
+}
+
+
+
+
+#footer{
+	clear:both;
+	/*height:80px;*/
+	background-color:#555555;
+	color:rgb(255,255,255);
+	font-family:Arial,Helvetica,sans serif;
+	padding:5px;
+	
+	
+}
+#footer h4{
+	margin:0;
+	padding:5px;
+}
+#footer p{
+	margin:0;
+	padding:0 5px;
+	font-size:12px;
+	
+}
